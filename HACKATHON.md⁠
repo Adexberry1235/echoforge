@@ -1,0 +1,15 @@
+# EchoForge — Autonomous Self-Replicating Web App & Game Studio
+
+EchoForge is an autonomous agent operating inside NEAR AI Cloud TEE. It takes user prompt intents, verifies TEE execution, and programmatically generates HTML5 web applications and game prototypes integrated with NEAR Intents (`@defuse-protocol/intents-sdk`) for instant cross-chain micro-payments.
+
+## Key Technologies
+- **NEAR AI Cloud (TEE)**: Confidential enclave execution environment.
+- **NEAR Intents SDK**: Cross-chain payment intent generation.
+- **Chain Signatures**: Multi-chain transaction settlement.
+
+## Judge Verification ("Do X, See Y")
+
+### Step 1: Install Dependencies
+Do:
+```bash
+npm install
