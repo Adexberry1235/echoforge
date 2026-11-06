@@ -1,0 +1,15 @@
+{
+  "name": "echoforge",
+  "version": "1.0.0",
+  "description": "Autonomous Self-Replicating Web App & Game Studio on NEAR",
+  "main": "agent/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node agent/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@defuse-protocol/intents-sdk": "^1.0.0",
+    "near-api-js": "^5.0.0"
+  }
+}
